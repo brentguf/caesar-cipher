@@ -2,7 +2,7 @@ require 'pry'
 
 # for every str char move 5 spaces to the right in the alphabet and replace it with that letter
 # if we reach the end of the alphabet, go to start of alphabet. E.g. 'z' becomes 'e'.
-
+ 
 def caesar_cipher(str, shift_factor)
   # create alphabet array
   alphabet = ('a'..'z').to_a
